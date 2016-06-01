@@ -10,9 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
-char *ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*str;
 	int		i;
@@ -22,7 +22,9 @@ char *ft_strjoin(char const *s1, char const *s2)
 	if (str == NULL || s1 == NULL || s2 == NULL)
 		return (NULL);
 	else
+	{
 		ft_strcpy(str, s1);
 		ft_strcat(str, s2);
+	}
 	return (str);
 }
