@@ -26,6 +26,7 @@ SRCS	= ft_atoi.c ft_putnbr.c ft_strcmp.c ft_strcpy.c ft_strdup.c\
 		ft_strmap.c ft_strmapi.c ft_strequ.c ft_strnequ.c ft_strsub.c\
 		ft_strtrim.c ft_strsplit.c ft_itoa.c ft_lstnew.c ft_lstdelone.c\
 		ft_lstdel.c ft_lstadd.c ft_lstiter.c ft_lstmap.c get_next_line.c\
+		ft_create_elem.c ft_list_push_back.c ft_list_push_front.c\
 
 SRCS_O	= $(SRCS:.c=.o)
 

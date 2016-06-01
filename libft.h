@@ -91,5 +91,8 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list*));
 void				ft_cp_end(char **line, char **buf_tmp, char *buff, int fd);
 int					ft_check_buff(char **buff_tmp, char **line, int fd);
 int					get_next_line(int fd, char **line);
+void				ft_list_push_front(t_list **begin_list, void *data);
+void				ft_list_push_back(t_list **begin_list, void *data);
+t_list				*ft_create_elem(void *content);
 
 #endif
